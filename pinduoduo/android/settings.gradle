@@ -1,0 +1,3 @@
+rootProject.name = 'pinduoduo'
+
+include ':app'
