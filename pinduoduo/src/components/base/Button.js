@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import PropTypes from 'prop-types';
 import { StyleSheet, TouchableOpacity, Text, Dimensions } from 'react-native';
 
 const window = Dimensions.get('window');

@@ -1,11 +1,11 @@
 
 import React, { Component } from 'react';
-
+import PropTypes from 'prop-types';
 import { Image, StyleSheet } from 'react-native';
 
 class Avatar extends Component {
     static propTypes = {
-        size: PropTypes.oneOf(['small', 'normal', 'large']) | PropTypes.number,
+        size: PropTypes.oneOf(['small', 'normal', 'large']) || PropTypes.number,
         src: PropTypes.string.isRequired,
 	};
 	static defaultProps = {

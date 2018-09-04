@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-import { View, StyleSheet, PropTypes } from 'react-native';
+import PropTypes from 'prop-types';
+import { View, StyleSheet } from 'react-native';
 
 class Row extends Component {
     static propTypes = {

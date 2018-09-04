@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-import { Text, PropTypes } from 'react-native';
+import PropTypes from 'prop-types';
+import { Text } from 'react-native';
 
 const FontMap = {
     favorfill: "\ue67d",
