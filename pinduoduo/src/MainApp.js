@@ -1,35 +1,38 @@
 import React, { Component } from 'react';
 import { TabBarIOS, View, Text } from 'react-native';
 
-import Icon from './components/Icon';
-
-const Child = <Text> shouye </Text>;
+// 导入页面
+import Home from './pages/Home';
+import Hot from './pages/Hot';
+import Search from './pages/Search';
+import Chat from './pages/Chat';
+import User from './pages/User';
 
 const TabBarData = [{
     title: '首页',
     icon: require('./assets/icon/home.png'),
     selectIcon: require('./assets/icon/home_active.png'),
-    children: Child,
+    children: <Home />,
 }, {
     title: '精选',
     icon: require('./assets/icon/hot.png'),
     selectIcon: require('./assets/icon/hot_active.png'),
-    children: Child,
+    children: <Hot />,
 }, {
     title: '搜索',
     icon: require('./assets/icon/search.png'),
     selectIcon: require('./assets/icon/search_active.png'),
-    children: Child,
+    children: <Search />,
 }, {
     title: '聊天',
     icon: require('./assets/icon/chat.png'),
     selectIcon: require('./assets/icon/chat_active.png'),
-    children: Child,
+    children: <Chat />,
 }, {
     title: '我的',
     icon: require('./assets/icon/user.png'),
     selectIcon: require('./assets/icon/user_active.png'),
-    children: Child,
+    children: <User />,
 }];
 
 class MainApp extends Component {
